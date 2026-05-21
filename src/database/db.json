@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 500,
+    "description": "Compact wireless mouse with ergonomic design and long battery life."
+  },
+  {
+    "id": 4,
+    "name": "sads",
+    "price": 324332,
+    "description": "Noise-cancelling wireless headphones with deep bass and 20-hour battery backup."
+  },
+  {
+    "id": 5,
+    "name": "USB-C Power Bank",
+    "price": 1800,
+    "description": "10000mAh fast-charging power bank compatible with smartphones and tablets."
+  },
+  {
+    "id": 1779300866881,
+    "name": "Bluetooth Headphones",
+    "price": 3200,
+    "description": "Noise-cancelling wireless headphones with deep bass and 20-hour battery backup."
+  },
+  {
+    "id": 1779300908673,
+    "name": "sads",
+    "price": 324332,
+    "description": "Noise-cancelling wireless headphones with deep bass and 20-hour battery backup."
+  }
+]
