@@ -78,6 +78,7 @@ export const productController = async (
     try {
       const body = await parseBody(req);
       // console.log("body",body);
+      // console.log("body",body);
       const product = readProduct(); // [{},{},{new}];
       const newProduct = {
         id: Date.now(),
@@ -108,7 +109,6 @@ export const productController = async (
       if (index < 0) {
         return sendResponse(res, 404, false, "Product Not Found");
       }
-
       products[index] = {
         id: products[index].id,
         ...body,
@@ -134,13 +134,9 @@ export const productController = async (
       if (index < 0) {
         return sendResponse(res, 404, false, "Product Not Found");
       }
-
       products.splice(index, 1);
       // console.log(products);
-      // console.log("hello world");
-
       insertProduct(products);
-
       return sendResponse(res, 200, true, "Product Deleted Successfully", null);
     } catch (error) {
       return sendResponse(res, 404, false, "Something went wrong", error);
